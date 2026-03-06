@@ -1,0 +1,23 @@
+server:
+  name: my-server
+  ip: 192.168.1.10
+  port: 22
+
+   # Block style: preserves newlines
+  startup_script_block: |
+    echo "Starting server..."
+    echo "Loading configurations..."
+    echo "Server ready!"
+  # Folded style: folds lines into a single line
+  startup_script_folded: >
+    echo "Starting server..."
+    echo "Loading configurations..."
+    echo "Server ready!"
+
+datbase:
+  host: localhost
+  name: mydb
+  credentials: 
+    user: neha123
+    password: test@134
+    
