@@ -1,0 +1,10 @@
+name: Neha
+role: devops-engineer
+experience_years: 4 
+learning: true
+tools: [docker,ci/cd, git, terraform, kubernetes]
+hobbies:
+  - dancing
+  - singing
+  - writing
+
